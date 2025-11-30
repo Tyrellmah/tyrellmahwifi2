@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYRELLMAH - WiFi Billing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-100">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <!-- Hero Section -->
+            <section class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Fast & Reliable WiFi</h1>
+                <p class="text-xl text-gray-600 mb-8">Get connected in seconds with our affordable packages</p>
+                <div class="bg-white rounded-xl shadow-lg p-6 max-w-2xl mx-auto">
+                    <i data-feather="wifi" class="w-16 h-16 text-indigo-500 mx-auto mb-4"></i>
+                    <h2 class="text-2xl font-semibold mb-4">TYRELLMAH WiFi Billing</h2>
+                    <p class="text-gray-600 mb-6">Pay via M-Pesa to +254758299822 and enjoy seamless internet access</p>
+                </div>
+            </section>
+
+            <!-- Pricing Plans -->
+            <section class="mb-16">
+                <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Choose Your Plan</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <!-- Plan 1 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Daily Plan</h3>
+                            <p class="text-gray-600 mb-4">Perfect for short-term usage</p>
+                            <div class="text-3xl font-bold mb-4">KSh 50</div>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>24 Hours Access</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>5Mbps Speed</span>
+                                </li>
+                            </ul>
+                            <button class="w-full bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors">
+                                Select Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Plan 2 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border-2 border-indigo-500">
+                        <div class="p-6">
+                            <div class="absolute top-0 right-0 bg-indigo-500 text-white px-3 py-1 text-sm font-semibold rounded-bl-lg">Popular</div>
+                            <h3 class="text-xl font-semibold mb-2">Weekly Plan</h3>
+                            <p class="text-gray-600 mb-4">Best value for regular users</p>
+                            <div class="text-3xl font-bold mb-4">KSh 300</div>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>7 Days Access</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>10Mbps Speed</span>
+                                </li>
+                            </ul>
+                            <button class="w-full bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors">
+                                Select Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Plan 3 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Monthly Plan</h3>
+                            <p class="text-gray-600 mb-4">For heavy internet users</p>
+                            <div class="text-3xl font-bold mb-4">KSh 1000</div>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>30 Days Access</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i data-feather="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                                    <span>15Mbps Speed</span>
+                                </li>
+                            </ul>
+                            <button class="w-full bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors">
+                                Select Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Payment Instructions -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-12">
+                <h2 class="text-2xl font-bold mb-6 text-center">How to Pay via M-Pesa</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Step-by-Step Guide</h3>
+                        <ol class="space-y-4">
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">1</span>
+                                <span>Go to M-Pesa on your phone</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">2</span>
+                                <span>Select "Lipa na M-Pesa"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">3</span>
+                                <span>Select "Pay Bill"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">4</span>
+                                <span>Enter Business No: <span class="font-bold">+254758299822</span></span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">5</span>
+                                <span>Enter Amount for your selected plan</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">6</span>
+                                <span>Enter your M-Pesa PIN and confirm</span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Payment Details</h3>
+                        <div class="bg-indigo-50 rounded-lg p-4 mb-4">
+                            <div class="flex items-center mb-2">
+                                <i data-feather="phone" class="w-5 h-5 text-indigo-600 mr-2"></i>
+                                <span class="font-medium">Paybill Number:</span>
+                                <span class="ml-2 font-bold">+254758299822</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i data-feather="credit-card" class="w-5 h-5 text-indigo-600 mr-2"></i>
+                                <span class="font-medium">Account Number:</span>
+                                <span class="ml-2 font-bold">Your WiFi Username</span>
+                            </div>
+                        </div>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                            <div class="flex">
+                                <i data-feather="alert-triangle" class="w-5 h-5 text-yellow-600 mr-2 mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold">Important Note</h4>
+                                    <p class="text-sm text-gray-600">After payment, your WiFi access will be activated within 5 minutes. Contact support if you experience any delays.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="mb-12">
+                <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Frequently Asked Questions</h2>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="divide-y divide-gray-200">
+                        <!-- FAQ Item 1 -->
+                        <div class="p-6">
+                            <button class="flex justify-between items-center w-full text-left">
+                                <h3 class="text-lg font-semibold">How long does it take to get connected after payment?</h3>
+                                <i data-feather="chevron-down" class="w-5 h-5 text-indigo-500"></i>
+                            </button>
+                            <div class="mt-3 text-gray-600">
+                                Your WiFi access is typically activated within 5 minutes after successful payment. If you don't get connected within 15 minutes, please contact our support team.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 2 -->
+                        <div class="p-6">
+                            <button class="flex justify-between items-center w-full text-left">
+                                <h3 class="text-lg font-semibold">What should I do if my payment fails?</h3>
+                                <i data-feather="chevron-down" class="w-5 h-5 text-indigo-500"></i>
+                            </button>
+                            <div class="mt-3 text-gray-600">
+                                If your M-Pesa payment fails, please wait a few minutes and try again. Ensure you have sufficient balance and are entering the correct PIN. If the problem persists, contact your mobile service provider.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 3 -->
+                        <div class="p-6">
+                            <button class="flex justify-between items-center w-full text-left">
+                                <h3 class="text-lg font-semibold">Can I get a refund if I'm not satisfied?</h3>
+                                <i data-feather="chevron-down" class="w-5 h-5 text-indigo-500"></i>
+                            </button>
+                            <div class="mt-3 text-gray-600">
+                                Refunds are available within the first 24 hours of purchase if you experience technical issues that we cannot resolve. Please contact our support team with your payment details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
